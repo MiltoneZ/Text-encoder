@@ -5,17 +5,33 @@ body{
 
 .topbar{
     text-align: center;
+    color : white;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.topbar:hover{
+    color: #ffee00;
+    font-size: 5.5rem;
+    transition: 200ms;
 }
 
 #input{
-    background-color: #7c6b3410;
-    border: 0.01rem solid #7c6b3410;
-    width: 50%;
+    background-color: #7c6b342c;
+    border: 3px solid #000000;
     text-align: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10%;
+    margin: 4% 0 4% 8%;
+    padding: 0 0 20% -20%;
+}
+
+#input::placeholder{
+    color: white;
 }
 
 .celularNumeroUno{
-    background-color: #1b1919ab;
     align-items: center;
     width: 50%;
 }
