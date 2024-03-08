@@ -16,6 +16,11 @@ body{
     transition: 200ms;
 }
 
+.celularNumeroUno{
+    display: inline-block;
+    width: 50%;
+}
+
 #input{
     background-color: #7c6b342c;
     border: 3px solid #00000000;
@@ -40,9 +45,26 @@ body{
 }
 
 #encrip{
-    font-size: 10px;
+    margin: 1% 5% 0 25%;
+    font-size: 20px;
+}
+
+#desencrip{
+    margin: 0 0 0 7%;
+    font-size: 20px;
+}
+
+.celularNumeroDos{
+    display: inline-block;
 }
 
 #copiar{
-    position: right;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 1.5%;
 }
